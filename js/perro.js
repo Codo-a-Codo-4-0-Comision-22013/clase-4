@@ -1,11 +1,12 @@
-export default class Perro {
+import Animal from "./animal.js";
+
+export default class Perro extends Animal {
     constructor(nombre, raza, edad) {
-        this.nombre = nombre;
+        super(nombre, edad);
         this.raza = raza;
-        this.edad = edad;
     }
     ladrar() {
-        return `${this.nombre} esta ladrando`;
+        return `${this.name} esta ladrando`;
     }
 
 }

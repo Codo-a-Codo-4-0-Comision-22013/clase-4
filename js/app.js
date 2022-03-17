@@ -10,4 +10,5 @@ console.log(myPerson.saludar());
 
 let myPerro = new Perro('Firulais', 'Chihuahua', 2);
 
-myPerro.ladrar();
+console.log(myPerro.ladrar());
+console.log(myPerro.speak());
