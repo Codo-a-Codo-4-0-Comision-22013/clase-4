@@ -6,7 +6,7 @@ export default class Persona {
         this.altura = altura;
     }
     saludar() {
-        console.log(`Hola, me llamo ${this.nombre} ${this.apellido}`);
+         return `Hola, me llamo ${this.nombre} ${this.apellido}`;
     }
     soyAlto() {
         return this.altura > 1.8;
